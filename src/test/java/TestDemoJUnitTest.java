@@ -29,7 +29,7 @@ class TestDemoJUnitTest {
 
 	// before each test this method will create new TestDemo Object
 	@BeforeEach
-	void setUp() throws Exception {
+	void setUp(){
 		testDemo = new TestDemo();
 	}
 
